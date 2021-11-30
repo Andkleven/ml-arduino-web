@@ -1,6 +1,6 @@
 
 int LED_GREEN = 4;
-int LED_RED = 11;
+int LED_RED = 10;
 // int BUTTON = 7;
 bool BUTTON_PRESSED = false;
 

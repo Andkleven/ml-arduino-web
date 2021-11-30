@@ -40,26 +40,29 @@ app.get("/:data", (req, res) => {
       break;
   }
   return res.send("Working");
+
   // client
   //   .query(
   //     q.Let(
   //       {
   //         counterValue: q.Select(
   //           ["data", data],
-  //           q.Get(q.Ref(q.Collection("data"), "309706254926742092"))
+  //           q.Get(q.Ref(q.Collection("data"), "310177335211983433"))
   //         ),
   //       },
   //       {
-  //         count: q.Update(q.Ref(q.Collection("data"), "309706254926742092"), {
+  //         count: q.Update(q.Ref(q.Collection("data"), "310177335211983433"), {
   //           data: { [data]: q.Add(q.Var("counterValue"), 1) },
   //         }),
   //       }
   //     )
   //   )
   //   .then((ret) => {
+  //     console.log("jaja");
   //     return res.send("Working");
   //   })
   //   .catch((err) => {
+  //     console.log(err);
   //     return res.send("Not Working").status(400);
   //   });
 });

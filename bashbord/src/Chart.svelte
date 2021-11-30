@@ -3,7 +3,7 @@
 
     const q = window.faunadb.query;
     const faunaClient = new faunadb.Client({
-        secret: "secret_key",
+        secret: "fnAEZSGPVhACSX9ar8S0QNEmeFIHHx32mgXWuG98",
     });
 
     let options = {
@@ -51,7 +51,7 @@
         return data
     }
 
-    // let data = getFaunaData()
+    let data = getFaunaData()
 </script>
 
 {#await data}

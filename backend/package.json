@@ -2,6 +2,7 @@
   "dependencies": {
     "@serialport/parser-readline": "^9.0.7",
     "express": "^4.17.1",
-    "faunadb": "^4.4.1"
+    "faunadb": "^4.4.1",
+    "serialport": "^9.2.8"
   }
 }

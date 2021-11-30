@@ -2,7 +2,7 @@
 	import { onMount } from "svelte";
 	import * as tf from "@tensorflow/tfjs";
 	import * as tmImage from "@teachablemachine/image";
-	const URL = "https://teachablemachine.withgoogle.com/models/44R_hA6_8/";
+	const URL = "https://teachablemachine.withgoogle.com/models/JMtniqs-n/";
 	let videoEl;
 	let errorMessage;
 	let model;
